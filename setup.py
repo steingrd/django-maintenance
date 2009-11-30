@@ -19,9 +19,7 @@ display a friendly message to your users during the downtime.
 
 Installing
 ==========
-Please refer to `INSTALL.markdown` for installation instructions. Notice the
-last section on configuring Django and ensure that you have the correct
-settings in `INSTALLED_APPS` and `MIDDLEWARE_CLASSES`. 
+Please refer to `INSTALL.markdown` for installation instructions. 
 
 Using
 =====
