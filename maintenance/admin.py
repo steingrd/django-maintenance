@@ -2,7 +2,7 @@ from django.contrib import admin
 
 from models import Maintenance, MaintenanceFilter
 
-class MaintenanceFilterInline(admin.StackedInline):
+class MaintenanceFilterInline(admin.TabularInline):
     model = MaintenanceFilter
 
 class MaintenanceAdmin(admin.ModelAdmin):
